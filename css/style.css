@@ -1,0 +1,105 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background-image: url("../img/brandi-redd-122054-unsplash.jpg");
+	background-size: cover;
+	overflow: hidden;
+}
+
+header h1{
+	font-family:fantasy;
+	color: orange;
+	margin: 5%;
+	font-size: 3rem;
+}
+.container{
+	width: 50%;
+	background: rgba(0, 0, 0, 0.3); 
+	
+	margin: 0 auto;
+}
+.container h1{
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.container p{
+	text-align: center;
+	font-weight: 200;
+	color: aquamarine;
+}
+.container .sub-container label{
+	font-size: 25px;
+	padding: 2% 5%;
+	color: lavender;
+	font-weight: bold;
+}
+.container .sub-container input[type=text]{
+	padding: 2%;
+	width: 75%;
+	background-color: rgba(0, 0, 0, 0.3); 
+	color: white;
+	border: none;
+	font-size: 20px;
+}
+.container .sub-container input[type=text]::placeholder{
+	color: white;
+}
+.container .sub-container select{
+	padding: 2%;
+	width: 41%;
+	margin-left: 5%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3); 
+	font-size: 20px;
+	
+}
+button{
+	width: 85%;
+	margin: 2% 7%;
+	padding: 2%;
+ 	background-color: rgba(0, 0, 0, 0.3); 
+	color: white;
+	border: none;
+}
+button:hover{
+	background: orange;
+	transition-property: background;
+	transition-duration: 1.5s;
+}
+.color {
+	margin: 2% 23%;
+	
+}
+ input[type="radio"] {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);
+}
+.corner-button {
+	display: inline-block;
+	padding: 10px;
+	background: #000;
+	width: 300px;
+	position: relative;
+	left: -1%;	transition: 0.3s;
+	transform: skewX(10deg)
+}
+.corner-button:hover {
+	filter: invert(100%);
+	transition: 0.3s;
+}
+.corner-button h1 {
+	color: white;
+	transform: skewX(-10deg);
+	padding-left: 7%
+}
+
+h1 a, h1 a:hover {
+	color: white;
+}

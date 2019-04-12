@@ -1,0 +1,55 @@
+html,body{
+/*
+	height: 100%;
+	width: 100%;
+*/
+}
+
+body{
+	background: grey;
+/*	background-size: cover;*/
+	overflow: hidden;
+}
+.corner-button {
+	float:right;
+	display: inline-block;
+	padding: 10px;
+	background: #000;
+	width: 300px;
+	position: relative;
+	left: -1%;	transition: 0.3s;
+	transform: skewX(10deg)
+}
+.corner-button:hover {
+	filter: invert(100%);
+	transition: 0.3s;
+}
+.corner-button h1 {
+	color: white;
+	transform: skewX(-10deg);
+	padding-left: 7%
+}
+
+h1 a, h1 a:hover {
+	color: white;
+}
+.container .row	 .inside{
+	padding: 100px;
+	width: 94%;
+	margin: 5% 3%;
+	background: black;
+	color: white;
+}
+.inside a{
+	color: white;
+	text-decoration: none;
+}
+.inside:hover{
+	background: green;
+}
+table td{
+	color:white;
+}
+table th{
+	color: black;
+}
